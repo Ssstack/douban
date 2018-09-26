@@ -3,15 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>my_douban</title>
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>豆瓣</title>
+    <link rel="icon" type="shortcut icon" href="./src/assets/dou16.png">
+    <script>
+      /* fnResize();
+      window.onresize = function () {
+        fnResize()
+      }
+      function fnResize() {
+        var deviceWidth = document.documentElement.clientWidth || window.innerWidth;
+        if (deviceWidth >= 750) {
+          deviceWidth = 750
+        }
+        if (deviceWidth <= 320) {
+          deviceWidth = 320
+        }
+        document.documentElement.style.fontSize = (deviceWidth / 25) + 'px';
+      } */
+    </script>
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but my_douban doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
+    <!-- 定义的vue实例将挂载到#app下 -->
     <div id="app"></div>
-    <!-- built files will be auto injected -->
   </body>
 </html>
